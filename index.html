@@ -24,10 +24,9 @@ everything from online games to virtual reality.">
     bottom: 10px;
   }
 
-  .button2:focus {
+  .button2 {
     text-decoration: none;
     cursor: pointer;
-    border: none;
   }
 </style>
 
@@ -57,10 +56,24 @@ everything from online games to virtual reality.">
   <!-- or -->
   <div class="w3-padding-32"></div>
   <div class="w3-center">
-    <img src="Images/BeanMachineStudiosLogo.jpg" alt="Bean Machine Studios" style="width:200px "
-      class="w3-round-xlarge">
+    
+    <!-- Dark/light images -->
+    <picture>
+      <source 
+        srcset="Images/BeanMachineStudiosLogo.jpg"
+        media="(prefers-color-scheme: dark)"
+      />
+      <source
+        srcset="Images/BeanMachineStudiosLogo.jpg"
+        media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+      />
+      <img src="Images/BeanMachineStudiosLogo.jpg" alt="Bean Machine Studios" style="width:200px "
+        class="w3-round-xlarge">
+    </picture>
+    
   </div>
 
+  
 
   <!-- !PAGE CONTENT! -->
   <div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:25px">
@@ -243,18 +256,57 @@ everything from online games to virtual reality.">
         <ul class="w3-ul w3-hoverable ">
           <li onclick="location.href='https://bean-machine-studios.itch.io/';" class="w3-padding-16 button2"
             tabindex="0">
-            <img src="Images/itchio-logo-textless-black.svg" class="w3-left w3-margin-right" style="width:30px">
+
+            <!-- Dark/light images -->
+            <picture>
+              <source 
+                srcset="Images/itchio-textless-white.svg"
+                media="(prefers-color-scheme: dark)"
+              />
+              <source
+                srcset="Images/itchio-logo-textless-black.svg"
+                media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+              />
+              <img src="Images/itchio-logo-textless-black.svg" class="w3-left w3-margin-right" style="width:30px">
+            </picture>
+
             <span class="w3-large">Itch.io</span><br>
           </li>
           <li onclick="location.href='https://www.youtube.com/channel/UC3ykoKAB0tgZO_IZW3prxkQ';"
             class="w3-padding-16 button2" tabindex="0">
-            <img src="Images/yt_icon_mono_light.svg" class="w3-left w3-margin-right" style="width:30px">
+
+            <!-- Dark/light images -->
+            <picture>
+              <source 
+                srcset="Images/yt_icon_mono_dark.svg"
+                media="(prefers-color-scheme: dark)"
+              />
+              <source
+                srcset="Images/yt_icon_mono_light.svg"
+                media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+              />
+              <img src="Images/yt_icon_mono_light.svg" class="w3-left w3-margin-right" style="width:30px">
+            </picture>
+
             <span class="w3-large">YouTube</span><br>
             <span></span>
           </li>
           <li onclick="location.href='https://github.com/BeanMachineStudios';" class="w3-padding-16 button2 "
             tabindex="0">
-            <img src="Images/GitHub-Mark-32px.png" class="w3-left w3-margin-right" style="width:30px">
+
+            <!-- Dark/light images -->
+            <picture>
+              <source 
+                srcset="Images/GitHub-Mark-Light-32px.png"
+                media="(prefers-color-scheme: dark)"
+              />
+              <source
+                srcset="Images/GitHub-Mark-32px.png"
+                media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+              />
+              <img src="Images/GitHub-Mark-32px.png" class="w3-left w3-margin-right" style="width:30px">
+            </picture>
+
             <span class="w3-large">GitHub</span><br>
             <span></span>
           </li>
@@ -265,19 +317,19 @@ everything from online games to virtual reality.">
         <h3>Popular Tags</h3>
         <p>
           <span class="w3-tag w3-blackDynamic w3-margin-bottom">Video games</span> <span
-            class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Indie Games</span> <span
-            class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Minigames</span>
-          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Online games</span> <span
-            class="w3-tag w3-dark-grey w3-small w3-margin-bottom">CausalFun</span> <span
-            class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Puzzle</span>
-          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Fun</span> <span
-            class="w3-tag w3-dark-grey w3-small w3-margin-bottom">2D</span> <span
-            class="w3-tag w3-dark-grey w3-small w3-margin-bottom">3D</span>
-          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Virtual Reality</span> <span
-            class="w3-tag w3-dark-grey w3-small w3-margin-bottom">HTML5/WebGL</span> <span
-            class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Programming</span>
-          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Pizza Delivery</span> <span
-            class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Bean Machine Studios</span>
+            class="w3-tag w3-blackDynamic w3-small w3-margin-bottom">Indie Games</span> <span
+            class="w3-tag w3-blackDynamic w3-small w3-margin-bottom">Minigames</span>
+          <span class="w3-tag w3-blackDynamic w3-small w3-margin-bottom">Online games</span> <span
+            class="w3-tag w3-blackDynamic w3-small w3-margin-bottom">CausalFun</span> <span
+            class="w3-tag w3-blackDynamic w3-small w3-margin-bottom">Puzzle</span>
+          <span class="w3-tag w3-blackDynamic w3-small w3-margin-bottom">Fun</span> <span
+            class="w3-tag w3-blackDynamic w3-small w3-margin-bottom">2D</span> <span
+            class="w3-tag w3-blackDynamic w3-small w3-margin-bottom">3D</span>
+          <span class="w3-tag w3-blackDynamic w3-small w3-margin-bottom">Virtual Reality</span> <span
+            class="w3-tag w3-blackDynamic w3-small w3-margin-bottom">HTML5/WebGL</span> <span
+            class="w3-tag w3-blackDynamic w3-small w3-margin-bottom">Programming</span>
+          <span class="w3-tag w3-blackDynamic w3-small w3-margin-bottom">Pizza Delivery</span> <span
+            class="w3-tag w3-blackDynamic w3-small w3-margin-bottom">Bean Machine Studios</span>
         </p>
       </div>
     </footer>

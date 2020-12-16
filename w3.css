@@ -239,6 +239,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
   body {
     color: #e8e8e8;
     background: #17191a;
+    
   }
   .w3-whiteDynamic{
     color: #e8e8e8;
@@ -246,7 +247,10 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
   }
   .w3-blackDynamic{
     color: #e8e8e8;
-    background-color: #6d6d6d;
+    background-color: #464646;
+  }
+  .w3-ul.w3-hoverable li:hover{
+    background-color: #000; 
   }
   a {
     color: #809fff;
