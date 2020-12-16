@@ -1,32 +1,281 @@
-<html lang="en"><head>
-  <title>Bean Machine Studios</title>
-</head>
+<!DOCTYPE html>
+<html>
+<title>Bean Machine Studios</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<style>
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Karma", sans-serif
+  }
+
+  div.relative {
+    position: relative;
+    bottom: 10px;
+  }
+</style>
+
 <body>
 
-<pre>________                    
-___  __ )__________ _______ 
-__  __  |  _ \  __ `/_  __ \
-_  /_/ //  __/ /_/ /_  / / /
-/_____/ \___/\__,_/ /_/ /_/ 
-                            
-______  ___            ______ _____             
-___   |/  /_____ _________  /____(_)___________ 
-__  /|_/ /_  __ `/  ___/_  __ \_  /__  __ \  _ \
-_  /  / / / /_/ // /__ _  / / /  / _  / / /  __/
-/_/  /_/  \__,_/ \___/ /_/ /_//_/  /_/ /_/\___/ 
-                                                
-____________       _____________              
-__  ___/_  /____  _______  /__(_)_____________
-_____ \_  __/  / / /  __  /__  /_  __ \_  ___/
-____/ // /_ / /_/ // /_/ / _  / / /_/ /(__  ) 
-/____/ \__/ \__,_/ \__,_/  /_/  \____//____/  
-</pre>
+  <!-- Sidebar (hidden by default) -->
+  <!-- <nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left"
+    style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+    <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button">Close Menu</a>
+    <a href="#food" onclick="w3_close()" class="w3-bar-item w3-button">Food</a>
+    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
+  </nav> -->
+
+  <!-- Top menu -->
 
 
+  <div class="w3-top ">
+    <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+      <!-- <div class="w3-padding-16 w3-left"><img src="Images/BeanMachineStudiosLogo.jpg" alt="Bean Machine Studios"
+          style="width:50px"> </div> -->
+      <!-- <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div> -->
+      <!-- <div class="w3-right w3-padding-16">Mail</div> -->
+      <div class="w3-center w3-padding-16">Bean Machine Studios</div>
+    </div>
+  </div>
 
-<p>test</p>
-<a href="PizzaDeliveryV1/">PizzaDeliveryV1</a>
-<a href="PizzaDeliveryV2/">PizzaDeliveryV2</a>
-<a href="PizzaDeliveryV2.1/">PizzaDeliveryV2.1</a>
+  <!-- or -->
+  <div class="w3-padding-32"></div>
+  <div class="w3-center ">
+    <img src="Images/BeanMachineStudiosLogo.jpg" alt="The Band" style="width:200px ">
+  </div>
 
-</body></html>
+
+  <!-- !PAGE CONTENT! -->
+  <div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:25px">
+
+    <!-- First Photo Grid-->
+    <div style="display: table-row; " class="w3-row-padding w3-padding-16 w3-center" id="food">
+
+      <div class="w3-quarter">
+        <img src="Images/TubeAttack.jpg" alt="Tube Attack!" style="width:100%" class = "w3-round-xlarge">
+        <h3>Tube Attack!</h3>
+
+        <p><a href="https://soundcloud.com/blueordermusic">Blue Order</a>
+          and I made this game in 48 hours for the
+          <a href="https://itch.io/jam/gmtk-2020">GMTK Game Jam 2020.</a>
+          It's a small game, but we are really proud of how it turned out.
+        </p>
+        <P>The theme was "out of control," so I coded the player to move on it's own, but you had to fight off the
+          enemies with your lazar cannon.
+          Shout out to <a href="https://www.kenney.nl/assets/roguelike-modern-city">Kenny</a> for making some awesome
+          art the saved me in a pinch when I rand out of time.</P>
+        
+          <div class = "relative">
+            <a href="https://bean-machine-studios.itch.io/tube-attack" class="w3-button w3-border w3-round-xlarge">Play
+              Now</a>
+          </div>
+          
+      </div>
+
+      <div class="w3-quarter">
+        <img src="Images/PizzaDelivery1.jpg" alt="Pizza Delivery 1" style="width:100%" class = "w3-round-xlarge">
+        <h3>Pizza Delivery V1</h3>
+
+        <p>This game is a really old puzzle Game I made with puzzle script. It's kina cringy to be honest, but I still
+          like the puzzles in it.</p>
+        <p>In this game you must get the pizzas to the delivery truck in order to move on to the next level.
+          Don't forget to think outside the box and pres 'R' to restart! </p>
+
+        <div class = "relative">
+          <a href="PizzaDeliveryV1/" class="w3-button w3-border w3-round-xlarge">Play
+            Now</a>
+        </div>
+        
+      </div>
+
+      <div class="w3-quarter">
+        <img src="Images/PizzaDelivery2.jpg" alt="Pizza Delivery 2.1" style="width:100%" class = "w3-round-xlarge">
+        <h3>Pizza Delivery V2.1</h3>
+
+        <p>The second Pizza Delivery game! I made this one right after the first one. I mainly used quirks from the
+          Puzzle Script game engine to make semi-interesting mechanics.</p>
+
+        <P>The original Pizza Delivery V2 has some <a href="PizzaDeliveryV2/">bugs</a> that made some levels impossible
+          to complete, so I made V2.1 to fix it.
+          I'm almost certain there was a way to beat it, so if you can complete the original V2, please let me know </P>
+       
+          <div class = "relative">
+            <a href="PizzaDeliveryV2.1/" class="w3-button w3-border w3-round-xlarge">Play
+              Now</a>
+          </div>
+          
+      </div>
+
+      <div class="w3-quarter">
+        <img src="Images/PuzzlingPaint.jpg" alt="Puzzling Paint" style="width:100%" class = "w3-round-xlarge">
+        <h3>Puzzling Paint</h3>
+
+        <p><i>Puzzling Paint</i> was a game I made for the <a href="https://itch.io/jam/vr-jam-2020">VR Game Jam
+            2020</a>.
+          I only spent about 2 out of the allotted 7 days making this game abd this was my first time making a Virtual
+          reality game,
+          so it's pretty bad, but I'm still proud of it! Honestly, I was surprised that I was able to pull it off.</p>
+       
+          <div class = "relative">
+            <a href="https://bean-machine-studios.itch.io/puzzling-paint" class="w3-button w3-border w3-round-xlarge">Play
+              Now</a>
+          </div>
+          
+      </div>
+
+
+    </div>
+
+    <!-- Buttons -->
+    <!-- <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+      <div class="w3-quarter">
+        <a href="https://bean-machine-studios.itch.io/tube-attack" class="w3-button w3-border w3-round-xlarge">Play
+          Now</a> </a>
+      </div>
+      <div class="w3-quarter">
+        <a href="/PizzaDeliveryV1/" class="w3-button w3-border w3-round-xlarge">Play
+          Now</a> </a>
+      </div>
+      <div class="w3-quarter">
+        <a href="/PizzaDeliveryV2.1/" class="w3-button w3-border w3-round-xlarge">Play
+          Now</a> </a>
+      </div>
+      <div class="w3-quarter">
+        <a href="https://bean-machine-studios.itch.io/puzzling-paint" class="w3-button w3-border w3-round-xlarge">Play
+          Now</a> </a>
+      </div>
+    </div> -->
+
+    <!-- Second Photo Grid-->
+    <!-- <div class="w3-row-padding w3-padding-16 w3-center">
+      <div class="w3-quarter">
+        <img src="/w3images/popsicle.jpg" alt="Popsicle" style="width:100%">
+        <h3>All I Need Is a Popsicle</h3>
+        <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+      </div>
+      <div class="w3-quarter">
+        <img src="/w3images/salmon.jpg" alt="Salmon" style="width:100%">
+        <h3>Salmon For Your Skin</h3>
+        <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+      </div>
+      <div class="w3-quarter">
+        <img src="/w3images/sandwich.jpg" alt="Sandwich" style="width:100%">
+        <h3>The Perfect Sandwich, A Real Classic</h3>
+        <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+      </div>
+      <div class="w3-quarter">
+        <img src="/w3images/croissant.jpg" alt="Croissant" style="width:100%">
+        <h3>Le French</h3>
+        <p>Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+      </div>
+    </div> -->
+
+    <!-- Pagination -->
+    <!-- <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div> -->
+
+
+    <hr id="About">
+
+    <!-- About Section -->
+    <!-- <div class="w3-container w3-padding-32 w3-center">
+      <h3>About Me, The Food Man</h3><br>
+      <img src="/w3images/chef.jpg" alt="Me" class="w3-image" style="display:block;margin:auto" width="800"
+        height="533">
+      <div class="w3-padding-32">
+        <h4><b>I am Who I Am!</b></h4>
+        <h6><i>With Passion For Real, Good Food</i></h6>
+        <p>Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem
+          ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum.
+          Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent
+          tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam
+          non fringilla.</p>
+      </div>
+    </div>
+    <hr> -->
+
+    <!-- Footer -->
+    <footer class="w3-row-padding w3-padding-32">
+      <div class="w3-third">
+        <h3>About us</h3>
+        <p>We are a group of people who make cool stuff sometimes. This page has most of the games we have made,
+          including the bad ones :)</p>
+
+        <a href="mailto:beanmachinestudioshelp@gmail.com">Contact us</a>
+        <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+      </div>
+
+      <div class="w3-third">
+        <h3>Links</h3>
+        <ul class="w3-ul w3-hoverable">
+          <li onclick="location.href='https://bean-machine-studios.itch.io/';" class="w3-padding-16">
+            <img src="Images/itchio-logo-textless-black.svg" class="w3-left w3-margin-right" style="width:30px">
+            <span class="w3-large">Itch.io</span><br>
+            <span></span>
+          </li>
+          <li onclick="location.href='https://www.youtube.com/channel/UC3ykoKAB0tgZO_IZW3prxkQ';" class="w3-padding-16">
+            <img src="Images/yt_icon_mono_light.svg" class="w3-left w3-margin-right" style="width:30px">
+            <span class="w3-large">YouTube</span><br>
+            <span></span>
+          </li>
+          <li onclick="location.href='https://github.com/BeanMachineStudios';" class="w3-padding-16">
+            <img src="Images/GitHub-Mark-32px.png" class="w3-left w3-margin-right" style="width:30px">
+            <span class="w3-large">GitHub</span><br>
+            <span></span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="w3-third w3-serif">
+        <h3>Popular Tags</h3>
+        <p>
+          <span class="w3-tag w3-black w3-margin-bottom">Video games</span> <span
+            class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Indie Games</span> <span
+            class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Minigames</span>
+          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Online games</span> <span
+            class="w3-tag w3-dark-grey w3-small w3-margin-bottom">CausalFun</span> <span
+            class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Puzzle</span>
+          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Fun</span> <span
+            class="w3-tag w3-dark-grey w3-small w3-margin-bottom">2D</span> <span
+            class="w3-tag w3-dark-grey w3-small w3-margin-bottom">3D</span>
+          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Virtual Reality</span> <span
+            class="w3-tag w3-dark-grey w3-small w3-margin-bottom">HTML5/WebGL</span> <span
+            class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Programming</span>
+          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Pizza Delivery</span> <span
+            class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Bean Machine Studios</span>
+        </p>
+      </div>
+    </footer>
+
+    <!-- End page content -->
+  </div>
+
+  <script>
+    // Script to open and close sidebar
+    function w3_open() {
+      document.getElementById("mySidebar").style.display = "block";
+    }
+
+    function w3_close() {
+      document.getElementById("mySidebar").style.display = "none";
+    }
+  </script>
+
+</body>
+
+</html>
